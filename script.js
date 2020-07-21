@@ -1,5 +1,3 @@
-
-
 const newButton = document.querySelector('#new');
 const cleanButton = document.querySelector('#clean');
 let selection = prompt("How Large Would You Like the Etch-A-Sketch?");
@@ -12,7 +10,7 @@ onHover();
 
 cleanButton.addEventListener('click', function(){
     hover.forEach(function(elem) {
-        elem.style.backgroundColor = 'white';
+        elem.style.backgroundColor = '#4B0082';
     });
 })
 
@@ -34,7 +32,7 @@ function create(){
 function onHover(){
     hover.forEach(function(elem) {
         elem.addEventListener('mouseenter', function() {
-            elem.style.backgroundColor = 'black';
+            elem.style.backgroundColor = '#FFD700';
         });
     });
 }
