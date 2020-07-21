@@ -6,6 +6,7 @@ html{
 body{
     margin: 0;
     padding: 0;
+    background-color: #4B0082;
 }
 
 #container{
@@ -13,22 +14,48 @@ body{
     grid-template-columns: repeat(16, 1fr);
     margin: 0 auto;
     width: 95vw;
-    height: 95vh;
+    height: 93vh;
+    
 }
 
 #button{
+    color: #FFD700;
+    background-color: #4B0082;
+    justify-content: center;
     display: flex;
-    justify-content: space-evenly;
     margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+#new{
+    margin: 10px;
+}
+
+#clean{
+    margin: 10px;
 }
 
 button{
+    background-color: #FFD700;
+    color: #4B0082;
+    font-weight: bold;
+    font-size: 1em;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 15%;
+    height: 25px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 1px 5px #DAA520;
+}
+
+button:active{
+    box-shadow: none;
 }
 
 .grid{
-    border: 0.5px solid black;
+    /* border: 0.5px solid #FFD700; */
+    background-color: #4B0082;
 }
 
